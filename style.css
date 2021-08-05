@@ -1,0 +1,64 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+#title{
+    background-color: tomato;
+    text-align: center;
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    border-color: white;
+    border-style: ridge;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#container{
+    padding: 30px;
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    background-color: tomato;
+    border-color: white;
+    border-style: ridge;
+
+/* Isso é importante pra centralizar em x e y */
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#content{
+    display: block;
+    text-align: center;
+
+}
+input, select{
+    height: 30px;
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    text-transform:uppercase;
+}
+
+input[type=submit]{
+    background-color:yellow;
+    
+}
+
+input[type=submit]:hover{
+    background-color: violet;
+}
